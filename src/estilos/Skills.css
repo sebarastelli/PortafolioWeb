@@ -1,0 +1,40 @@
+#skills {
+    background-color: #212529;
+    color: white;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.skills h1 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.skills h1::first-letter{
+    text-decoration: underline rgb(10, 173, 173);
+}
+
+.skill .col{
+    width: 150px;
+    height: 150px;
+}
+
+.skill img {
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-out;
+    padding-bottom: 10px;
+}
+
+.skill img:hover {
+    transform: translateY(-15px);
+}
+
+div.skill.col{
+    display: flex;
+    justify-content: space-around;
+}
+
+.w-100 .container {
+    background-color: #212529;
+}

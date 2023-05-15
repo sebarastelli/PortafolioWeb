@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+#header {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.navbar-collapse a {
+    border-radius: 25px;
+    margin: 5px 5px;
+    text-decoration: underline rgb(10, 173, 173);
+}
+
+
+.navbar-nav {
+    margin-top: 5px;
+}
+
+.navbar-nav .nav-link {
+    display: inline-block;
+    padding: 10px;
+}
+
+
