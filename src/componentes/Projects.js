@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "../estilos/Projects.css";
 import rapp from "../img/rapp.jpg";
 import carro from "../img/carro.jpg";
@@ -49,11 +51,11 @@ export default function Projects() {
                   className="btn"
                   target="_blank"
                   type="button"
-                  href="https://boleteriacine.netlify.app/"
+                  href="https://boleteriacine.netlify.app/" rel="noreferrer"
                 >
                   <ion-icon name="globe-outline"></ion-icon>
                 </a>
-                <a className="btn btn-primary" href="https://github.com/sebarastelli/Proyecto-Final-Sebastian-Rastelli" target="_blank" type="button">
+                <a className="btn btn-primary" href="https://github.com/sebarastelli/Proyecto-Final-Sebastian-Rastelli" target="_blank" type="button" rel="noreferrer">
                 <ion-icon name="logo-github"></ion-icon>
                 </a>
               </div>
