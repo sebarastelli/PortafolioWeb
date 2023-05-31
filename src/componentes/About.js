@@ -10,7 +10,7 @@ export default function About() {
           <img src={perfilImg} alt="" />
         </div>
         <h3>Trainee Front-End Developer</h3>
-        <p>"Me llamos Sebastián Rastelli, tengo 25 años y estoy estudiando y practicando para ser desarrollador"</p>
+        <p>"Me llamo Sebastián Rastelli, tengo 25 años y estoy estudiando y practicando para ser desarrollador"</p>
       </div>
     </div>
   );
