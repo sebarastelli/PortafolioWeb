@@ -9,8 +9,9 @@ export default function About() {
         <div className="contenedor-img">
           <img src={perfilImg} alt="" />
         </div>
-        <h3>Trainee Front-End Developer</h3>
-        <p>"Me llamo Sebastián Rastelli, tengo 25 años y estoy estudiando y practicando para ser desarrollador"</p>
+        <h3>Front-End Developer</h3>
+        <p>"Con 26 años de edad y más de un año de experiencia en programación, he cultivado una pasión inquebrantable por el desarrollo de aplicaciones web. Mi enfoque se ha centrado principalmente en el área del desarrollo front-end con algunos conocimientos del back-end.
+"</p>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ export default function Contact() {
 
   return (
       <div id="contact">
-        <h2 className="text-center py-5">Contactame</h2>
+        <h2 className="text-center py-5">Contáctame</h2>
         <h6 className="subtitulo">Trabajemos juntos</h6>
         <div className="contenedor-boton">
         <button className="boton cinco" onClick={sendMail} formTarget="_blank">

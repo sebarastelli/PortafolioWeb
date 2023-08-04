@@ -7,6 +7,9 @@ import bootstrap from "../img/bootstrap.png";
 import reacti from "../img/react.png";
 import npm from "../img/npm.png";
 import React from "react";
+import tail from "../img/tail.png"
+import redux from "../img/redux.png"
+import sequelize from "../img/sequelize.png"
 
 export default function Skills() {
   return (
@@ -36,6 +39,15 @@ export default function Skills() {
           </div>
           <div className="skill col p-2">
             <img src={reacti} alt="html5" width="80px" height="80px" />
+          </div>
+          <div className="skill col p-2">
+            <img src={tail} alt="html5" width="80px" height="80px" />
+          </div>
+          <div className="skill col p-2">
+            <img src={redux} alt="html5" width="80px" height="80px" />
+          </div>
+          <div className="skill col p-2">
+            <img src={sequelize} alt="html5" width="80px" height="80px" />
           </div>
         </div>
       </div>

@@ -38,3 +38,10 @@ div.skill.col{
 .w-100 .container {
     background-color: #212529;
 }
+
+@media (max-width: 425px) {
+    .skill img{
+        width: 60px;
+        height: 60px;
+    }
+  }

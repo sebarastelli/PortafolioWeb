@@ -28,7 +28,21 @@ h1 {
     border: 1px solid rgb(10, 173, 173);
 }
 
+.container .btn{
+    background-color: white;
+    margin-left: 2px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid rgb(10, 173, 173);
+}
+
 .container a:hover{
+    background-color: rgb(10, 173, 173);
+    border: 1px solid black;
+    color: white;
+}
+
+.container .btn:hover{
     background-color: rgb(10, 173, 173);
     border: 1px solid black;
     color: white;
