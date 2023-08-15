@@ -1,5 +1,6 @@
 import HeaderNav from './componentes/HeaderNav';
 import About from './componentes/About';
+import Education from './componentes/Education';
 import Projects from './componentes/Projects';
 import Skills from './componentes/Skills';
 import Contact from './componentes/Contact';
@@ -12,6 +13,7 @@ function App() {
     <main className="App">
       <HeaderNav/>
       <About />
+      <Education />
       <Skills />
       <Projects />
       <Contact />

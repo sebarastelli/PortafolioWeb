@@ -18,26 +18,42 @@
     height: 150px;
 }
 
-.skill img {
+.skill {
+    position: relative;
+  }
+  
+  .skill img {
+    width: 80px;
+    height: 80px;
     object-fit: contain;
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease-out;
-    padding-bottom: 10px;
-}
-
-.skill img:hover {
+  }
+  
+  .skill .tech-name {
+    position: absolute;
+    bottom: -30px;
+    left: 45%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: bottom 0.3s ease, opacity 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.7); /* Agrega un fondo para el nombre */
+    padding: 5px 10px; /* Agrega un espacio alrededor del nombre */
+    border-radius: 5px; /* Agrega bordes redondeados al fondo del nombre */
+    width: 100%; /* Asegura que el fondo ocupe todo el ancho */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Cambia el color del texto */
+  }
+  
+  .skill:hover img {
     transform: translateY(-15px);
-}
-
-div.skill.col{
-    display: flex;
-    justify-content: space-around;
-}
-
-.w-100 .container {
-    background-color: #212529;
-}
+  }
+  
+  .skill:hover .tech-name {
+    bottom: 10px;
+    opacity: 1;
+  }
 
 @media (max-width: 425px) {
     .skill img{
@@ -45,3 +61,5 @@ div.skill.col{
         height: 60px;
     }
   }
+
+  

@@ -14,12 +14,6 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/sebasti%C3%A1n-rastelli-854876253/" target="blank_">
             <ion-icon name="logo-linkedin"></ion-icon>
           </a>
-          <a href="https://www.instagram.com/seba.rastelli/" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-          <a href="https://twitter.com/RastelliSeba" target="_blank">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a>
           <a href="https://github.com/sebarastelli" target="_blank">
             <ion-icon name="logo-github"></ion-icon>
           </a>

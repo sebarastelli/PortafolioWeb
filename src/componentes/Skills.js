@@ -21,33 +21,43 @@ export default function Skills() {
         <div className="row p-4">
           <div className="skill col p-2">
             <img src={html} alt="html5" width="80px" height="80px" />
+            <p className="tech-name">HTML5</p>
           </div>
           <div className="skill col p-2">
             <img src={css} alt="css" width="80px" height="80px" />
+            <p className="tech-name">CSS</p>
           </div>
           <div className="skill col p-2">
             <img src={git} alt="git" width="80px" height="80px" />
+            <p className="tech-name">Git</p>
           </div>
           <div className="skill col p-2">
             <img src={npm} alt="git" width="80px" height="80px" />
+            <p className="tech-name">NPM</p>
           </div>
           <div className="skill col p-2">
             <img src={js} alt="html5" width="80px" height="80px" />
+            <p className="tech-name">JavaScript</p>
           </div>
           <div className="skill col p-2">
             <img src={bootstrap} alt="html5" width="80px" height="80px" />
+            <p className="tech-name">Bootstrap</p>
           </div>
           <div className="skill col p-2">
             <img src={reacti} alt="html5" width="80px" height="80px" />
+            <p className="tech-name">React</p>
           </div>
           <div className="skill col p-2">
             <img src={tail} alt="html5" width="80px" height="80px" />
+            <p className="tech-name">Tailwind CSS</p>
           </div>
           <div className="skill col p-2">
             <img src={redux} alt="html5" width="80px" height="80px" />
+            <p className="tech-name">Redux</p>
           </div>
           <div className="skill col p-2">
             <img src={sequelize} alt="html5" width="80px" height="80px" />
+            <p className="tech-name">Sequelize</p>
           </div>
         </div>
       </div>

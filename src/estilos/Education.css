@@ -1,0 +1,17 @@
+#education{
+    height: auto;
+    padding: 60px;
+}
+.cert img{
+    height: 200px;
+    border: none;
+}
+.cert{
+border: none;
+}
+
+@media (max-width: 425px) {
+    .cert img{
+        height: 150px;
+    }
+  }
