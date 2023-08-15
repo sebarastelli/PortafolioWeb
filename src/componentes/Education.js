@@ -12,19 +12,19 @@ export default function Education(){
             <div className="container">
             <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
-              <a target="_blank" href="https://certificates.soyhenry.com/new-cert?id=f12e4c054e909549ea4c5d74e60cdcf8c1d38786ae624bd857d35c7b74e545d9" className="cert card bg-dark bg-gradient">
+              <a target="_blank" rel="noreferrer" href="https://certificates.soyhenry.com/new-cert?id=f12e4c054e909549ea4c5d74e60cdcf8c1d38786ae624bd857d35c7b74e545d9" className="cert card bg-dark bg-gradient">
                 <img src={henry} className="card-img-top" alt="..." />
                 </a>
                 <h5 className="text-center text-light">Henry</h5>
              </div>   
              <div className="col">
-                <a target="_blank" href="https://www.coderhouse.com/certificados/63581c8035f380000e9c6fa6" className="cert card bg-dark bg-gradient">
+                <a target="_blank" rel="noreferrer" href="https://www.coderhouse.com/certificados/63581c8035f380000e9c6fa6" className="cert card bg-dark bg-gradient">
                 <img src={coder} className="card-img-top" alt="..." />
                 </a>
                 <h5 className="text-center text-light">CoderHouse</h5>
                 </div>
                 <div className="col">
-                <a target="_blank" href="https://www.efset.org/cert/xTCvZu" className="cert card bg-dark bg-gradient">
+                <a target="_blank" rel="noreferrer" href="https://www.efset.org/cert/xTCvZu" className="cert card bg-dark bg-gradient">
                 <img src={efset} className="card-img-top" alt="..." />
                 </a>
                 <h5 className="text-center text-light">EFSET</h5>
