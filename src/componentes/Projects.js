@@ -4,8 +4,8 @@ import "../estilos/Projects.css";
 import vgApp from "../img/AppVG.png";
 import carro from "../img/nomad.PNG";
 import cine from "../img/cine.PNG";
-import rymPI from "../img/rymPI.png";
-import web from "../img/terra.PNG";
+import pokedex from "../img/pokedex.png";
+import clubes from "../img/clubes.png";
 import trailers from "../img/AppPeliculas.PNG"
 import React, { useState } from "react";
 
@@ -14,13 +14,12 @@ export default function Projects() {
 
   const projectData = [
     {
-      name: "Pág web",
-      image: web,
+      name: "Football CRUD",
+      image: clubes,
       description:
-        "Página web de distribución: Proyecto personal de desarrollo web utilizando HTML y CSS para una empresa de distribución. Diseño intuitivo y moderno, destacando productos y servicios, y facilitando pedidos y contacto con el cliente.",
-      websiteLink: "https://terradist.000webhostapp.com/",
+        "Esta es una aplicación web desarrollada utilizando Node.js y Express para el backend, y JavaScript, HTML y Bootstrap para el frontend. La aplicación proporciona funcionalidades CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar equipos de fútbol.",
       githubLink:
-        "https://github.com/sebarastelli/Proyecto-Final-Sebastian-Rastelli",
+        "https://github.com/sebarastelli/crudClubes",
     },
     {
       name: "Simulador de boletería",
@@ -36,32 +35,31 @@ export default function Projects() {
       image: vgApp,
       description:
         "Aplicación de búsqueda de cartas de videojuegos: Un emocionante proyecto con desarrollo front-end y back-end. Utilizando tecnologías como Vite, Redux y CSS para el front-end y una API para obtener las cartas de videojuegos. Los usuarios pueden explorar y buscar cartas de diferentes videojuegos, y además tienen la capacidad de crear cartas personalizadas para sus propios juegos.",
-      websiteLink: "https://videogamesapp-sr.netlify.app/", // Agrega el enlace correcto si es necesario
-      githubLink: "https://github.com/sebarastelli/VideoGameApp", // Agrega el enlace correcto si es necesario
+      websiteLink: "https://videogamesapp-sr.netlify.app/", 
+      githubLink: "https://github.com/sebarastelli/VideoGameApp",
     },
     {
-      name: "Proyecto Rick and Morty",
-      image: rymPI,
+      name: "Pokedex",
+      image: pokedex,
       description:
-        "Explora una divertida aplicación desarrollada utilizando React para la interfaz de usuario receptiva y atractiva, potenciada con CSS para un diseño elegante. Esta aplicación utiliza Express como servidor backend, junto con Sequelize para gestionar la base de datos. Sumérgete en el emocionante mundo de Rick y Morty mientras exploras una amplia gama de personajes de la serie. ¡Guarda tus personajes favoritos con facilidad y revívelos cuando quieras en esta emocionante aventura de desarrollo!",
-      websiteLink: "https://rymsebarastelli-pi.netlify.app/", // Agrega el enlace correcto si es necesario
-      githubLink: "https://github.com/sebarastelli/rick-y-morty-integrador", // Agrega el enlace correcto si es necesario
+        "Este proyecto consiste en una Pokedex interactiva desarrollada con JavaScript, que permite a los usuarios explorar y conocer más sobre los diferentes Pokémon. La aplicación cuenta con paginación para una navegación fácil y eficiente, y permite a los usuarios hacer clic en los Pokémon para ver sus estadísticas detalladas. El proyecto incluye pruebas unitarias realizadas con Jest y pruebas de integración y end-to-end con Cypress para asegurar la calidad y funcionalidad del producto.",
+      githubLink: "https://github.com/sebarastelli/pokedex", 
     },
     {
       name: "NomadLocals",
       image: carro,
       description:
         "Con un stack tecnológico de vanguardia que incluye React y Tailwind CSS para una interfaz moderna y atractiva, Redux para una gestión de estado eficiente, y Express y Node.js para un backend robusto respaldado por Sequelize. ¿Quieres unirte a un emocionante partido de fútbol o una relajante caminata? Nuestra aplicación utiliza React Leaflet para la geolocalización, lo que te permite encontrar eventos cercanos fácilmente. ¡Pero eso no es todo! Con Socket.IO, también puedes disfrutar de un chat en tiempo real para una comunicación fluida. Este proyecto emocionante no solo destaca por su tecnología de punta, sino que también es un encargo real de una empresa.",
-      websiteLink: "https://nomandlocals.netlify.app/", // Agrega el enlace correcto si es necesario
-      githubLink: "https://github.com/NomadLocals/front", // Agrega el enlace correcto si es necesario
+      websiteLink: "https://nomandlocals.netlify.app/", 
+      githubLink: "https://github.com/NomadLocals/front", 
     },
     {
       name: "Buscador de Trailers",
       image: trailers,
       description:
         "Descubre la emoción del cine con nuestra aplicación de búsqueda de trailers de películas, impulsada por la velocidad de Vite y la potencia de las solicitudes de API. Encuentra fácilmente los avances de tus películas favoritas en cuestión de segundos. Gracias a la eficiencia de Vite, la interfaz es increíblemente rápida y fluida. La aplicación realiza solicitudes de API para obtener los últimos trailers directamente desde la fuente, lo que te mantiene actualizado con las últimas novedades cinematográficas.",
-      websiteLink: "https://buscadordetrailers.netlify.app/", // Agrega el enlace correcto si es necesario
-      githubLink: "https://github.com/sebarastelli/Api-Peliculas", // Agrega el enlace correcto si es necesario
+      websiteLink: "https://buscadordetrailers.netlify.app/", 
+      githubLink: "https://github.com/sebarastelli/Api-Peliculas", 
     },
   ];
 

@@ -10,6 +10,7 @@ import React from "react";
 import tail from "../img/tail.png"
 import redux from "../img/redux.png"
 import sequelize from "../img/sequelize.png"
+import cypress from "../img/cypress.png"
 
 export default function Skills() {
   return (
@@ -58,6 +59,10 @@ export default function Skills() {
           <div className="skill col p-2">
             <img src={sequelize} alt="html5" width="80px" height="80px" />
             <p className="tech-name">Sequelize</p>
+          </div>
+          <div className="skill col p-2">
+            <img src={cypress} alt="html5" width="80px" height="80px" />
+            <p className="tech-name">Cypress</p>
           </div>
         </div>
       </div>
